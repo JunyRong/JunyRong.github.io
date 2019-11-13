@@ -5,13 +5,16 @@
   
 
   
-  <title>RongJuny</title>
+  <title>RCR校验 | RongJuny</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="RongJuny">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="RCR校验原理RCR（Cyclical Redundancy Check，循环冗余码校验）是利用除法及余数的原理来作错误侦测（Error Detecting）的。CRC-16码由两个字节构成，在开始时CRC寄存器的每一位都预置为1然后把CRC寄存器与8-bit的数据进行异或(异或：二进制运算 相同为0，不同为1；0^0=0;0^1=1;1^0=1;1^1=0)之后对CRC寄存器从高到低进行移位，在">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RCR校验">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;13&#x2F;CRC%E6%A0%A1%E9%AA%8C&#x2F;index.html">
 <meta property="og:site_name" content="RongJuny">
+<meta property="og:description" content="RCR校验原理RCR（Cyclical Redundancy Check，循环冗余码校验）是利用除法及余数的原理来作错误侦测（Error Detecting）的。CRC-16码由两个字节构成，在开始时CRC寄存器的每一位都预置为1然后把CRC寄存器与8-bit的数据进行异或(异或：二进制运算 相同为0，不同为1；0^0=0;0^1=1;1^0=1;1^1=0)之后对CRC寄存器从高到低进行移位，在">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-13T14:58:05.002Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="RongJuny" type="application/atom+xml">
@@ -59,9 +62,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-CRC校验" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-CRC校验" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/13/CRC%E6%A0%A1%E9%AA%8C/" class="article-date">
   <time datetime="2019-11-13T14:38:15.765Z" itemprop="datePublished">2019-11-13</time>
@@ -74,8 +75,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/13/CRC%E6%A0%A1%E9%AA%8C/">RCR校验</a>
+    <h1 class="article-title" itemprop="name">
+      RCR校验
     </h1>
   
 
@@ -204,163 +205,19 @@ return ( USHORT )( ucCRCHi &lt;&lt; 8 | ucCRCLo );</code></pre><p>}</p>
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Markdown学习" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/10/Markdown%E5%AD%A6%E4%B9%A0/" class="article-date">
-  <time datetime="2019-11-10T12:33:30.433Z" itemprop="datePublished">2019-11-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/10/Markdown%E5%AD%A6%E4%B9%A0/">Markdown学习</a>
-    </h1>
+    <a href="/2019/11/10/Markdown%E5%AD%A6%E4%B9%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Markdown学习</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="MdEditor的功能列表演示"><a href="#MdEditor的功能列表演示" class="headerlink" title="MdEditor的功能列表演示"></a>MdEditor的功能列表演示</h2><h1 id="标题H1"><a href="#标题H1" class="headerlink" title="标题H1"></a>标题H1</h1><h2 id="标题H2"><a href="#标题H2" class="headerlink" title="标题H2"></a>标题H2</h2><h3 id="标题H3"><a href="#标题H3" class="headerlink" title="标题H3"></a>标题H3</h3><h4 id="标题H4"><a href="#标题H4" class="headerlink" title="标题H4"></a>标题H4</h4><h5 id="标题H5"><a href="#标题H5" class="headerlink" title="标题H5"></a>标题H5</h5><h6 id="标题H5-1"><a href="#标题H5-1" class="headerlink" title="标题H5"></a>标题H5</h6><h3 id="字符效果和横线等"><a href="#字符效果和横线等" class="headerlink" title="字符效果和横线等"></a>字符效果和横线等</h3><hr>
-<p><del>删除线</del> <s>删除线（开启识别HTML标签时）</s></p>
-<p><em>斜体字</em>      <em>斜体字</em></p>
-<p><strong>粗体</strong>  <strong>粗体</strong></p>
-<p><strong><em>粗斜体</em></strong> <strong><em>粗斜体</em></strong></p>
-<p>上标：X<sub>2</sub>，下标：O<sup>2</sup></p>
-<p><strong>缩写(同HTML的abbr标签)</strong></p>
-<blockquote>
-<p>即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启</p>
-</blockquote>
-<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
-<h3 id="引用-Blockquotes"><a href="#引用-Blockquotes" class="headerlink" title="引用 Blockquotes"></a>引用 Blockquotes</h3><blockquote>
-<p>引用文本 Blockquotes</p>
-</blockquote>
-<p>引用的行内混合 Blockquotes</p>
-<blockquote>
-<p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a>。</p>
-</blockquote>
-<h3 id="锚点与链接-Links"><a href="#锚点与链接-Links" class="headerlink" title="锚点与链接 Links"></a>锚点与链接 Links</h3><p><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a><br><a href="https://www.mdeditor.com/" target="_blank" rel="noopener" title="普通链接带标题">普通链接带标题</a><br>直接链接：<a href="https://www.mdeditor.com" target="_blank" rel="noopener">https://www.mdeditor.com</a><br>[锚点链接][anchor-id]<br>[anchor-id]: <a href="https://www.mdeditor.com/" target="_blank" rel="noopener">https://www.mdeditor.com/</a><br><a href="mailto:test.test@gmail.com" target="_blank" rel="noopener">mailto:test.test@gmail.com</a><br>GFM a-tail link @pandao<br>邮箱地址自动链接 <a href="mailto:test.test@gmail.com" target="_blank" rel="noopener">test.test@gmail.com</a>  <a href="mailto:www@vip.qq.com" target="_blank" rel="noopener">www@vip.qq.com</a></p>
-<blockquote>
-<p>@pandao</p>
-</blockquote>
-<h3 id="多语言代码高亮-Codes"><a href="#多语言代码高亮-Codes" class="headerlink" title="多语言代码高亮 Codes"></a>多语言代码高亮 Codes</h3><h4 id="行内代码-Inline-code"><a href="#行内代码-Inline-code" class="headerlink" title="行内代码 Inline code"></a>行内代码 Inline code</h4><p>执行命令：<code>npm install marked</code></p>
-<h4 id="缩进风格"><a href="#缩进风格" class="headerlink" title="缩进风格"></a>缩进风格</h4><p>即缩进四个空格，也做为实现类似 <code>&lt;pre&gt;</code> 预格式化文本 ( Preformatted Text ) 的功能。</p>
-<pre><code>&lt;?php
-    echo &quot;Hello world!&quot;;
-?&gt;</code></pre><p>预格式化文本：</p>
-<pre><code>| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |</code></pre>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/10/Markdown%E5%AD%A6%E4%B9%A0/" data-id="ck2xetihw0001q0vu06p1dhrm" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-如何在GitHub上使用Hexo创建个人博客" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/10/%E5%A6%82%E4%BD%95%E5%9C%A8GitHub%E4%B8%8A%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
-  <time datetime="2019-11-10T12:24:20.966Z" itemprop="datePublished">2019-11-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/10/%E5%A6%82%E4%BD%95%E5%9C%A8GitHub%E4%B8%8A%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">如何在GitHub上使用Hexo创建个人博客</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>参照CSDN博客博主TRHX的博客<a href="https://blog.csdn.net/qq_36759224/article/details/82121420#font_colorFF000_Hexo_font_54" target="_blank" rel="noopener" title="使用 Github Pages 和 Hexo 搭建自己的独立博客【超级详 细的小白教程】">使用 Github Pages 和 Hexo 搭建自己的独立博客【超级详细的小白教程】</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/10/%E5%A6%82%E4%BD%95%E5%9C%A8GitHub%E4%B8%8A%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="ck2xetihy0002q0vudgoz2q6b" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/10/hello-world/" class="article-date">
-  <time datetime="2019-11-10T07:42:37.503Z" itemprop="datePublished">2019-11-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/10/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/10/hello-world/" data-id="ck2xetii70003q0vu5jkn3fvs" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
